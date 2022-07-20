@@ -1,13 +1,102 @@
-body {
+/*General Rules*/
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header.js*/
+.header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Logo M6 */
+.logo {
+  width: 117px;
+}
+
+/* Card.js */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 580px;
+  height: 111px;
+  border-color: 3px solid #e5e5e5;
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  transform: rotate(0.1deg);
+}
+
+.containerHours {
+  width: 37px;
+  height: 15px;
+}
+
+.hours {
+  font-weight: bold;
+  color: black;
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 8%;
+}
+
+/* Images.js */
+
+img {
+  border-radius: 5px;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18%;
+}
+
+.div3 {
+  padding-top: 10px;
+  width: 74%;
+}
+
+.hoursLive {
+  display: flex;
+  align-items: center;
+}
+
+.live {
+  color: red;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.type {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
 }
